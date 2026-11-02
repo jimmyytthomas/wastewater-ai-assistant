@@ -2,3 +2,6 @@ anthropic
 chromadb
 python-dotenv
 pypdf
+streamlit
+pandas
+pytest

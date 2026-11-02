@@ -1,0 +1,38 @@
+[
+  {
+    "file": "npdes_permit_writers_manual_2025.pdf",
+    "title": "NPDES Permit Writers' Manual (2025 update)",
+    "publisher": "U.S. EPA",
+    "source_url": "https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf",
+    "published_date": "2025-06-01",
+    "status": "final",
+    "label": "public"
+  },
+  {
+    "file": "ca_niland_wwtp_npdes_permit_2025.pdf",
+    "title": "Niland WWTP NPDES Permit, Order R7-2025-0017",
+    "publisher": "Colorado River Basin Regional Water Quality Control Board",
+    "source_url": "https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf",
+    "published_date": "2025-07-01",
+    "status": "final",
+    "label": "public"
+  },
+  {
+    "file": "ca_title22_recycled_water_regs_2026.pdf",
+    "title": "California Regulations Related to Recycled Water (Title 22)",
+    "publisher": "California State Water Resources Control Board",
+    "source_url": "https://water.waterboards.ca.gov/drinking_water/certlic/drinkingwater/documents/lawbook/stats-regs.pdf",
+    "published_date": "2026-05-01",
+    "status": "final",
+    "label": "public"
+  },
+  {
+    "file": "epa_pfas_biosolids_fact_sheet_wwtps_2025.pdf",
+    "title": "Draft Sewage Sludge Risk Assessment for PFOA and PFOS: Information for Wastewater Treatment Plants",
+    "publisher": "U.S. EPA",
+    "source_url": "https://www.epa.gov/system/files/documents/2025-01/fact-sheet-wwtps-draft-sewage-sludge-risk-assessment-pfoa-pfos.pdf",
+    "published_date": "2025-01-14",
+    "status": "draft",
+    "label": "public"
+  }
+]

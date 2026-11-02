@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is a technology-based effluent limit?",
+    "good_answer_includes": "mentions treatment technology performance and effluent guidelines"
+  },
+  {
+    "question": "What are the BOD5 and TSS limits for the Niland wastewater treatment plant?",
+    "good_answer_includes": "numeric BOD5 and TSS limits"
+  },
+  {
+    "question": "What turbidity limit applies to filtered wastewater under Title 22?",
+    "good_answer_includes": "a turbidity number in NTU"
+  },
+  {
+    "question": "What did EPA find about PFOA and PFOS in sewage sludge?",
+    "good_answer_includes": "risk thresholds may be exceeded in some scenarios"
+  },
+  {
+    "question": "What is the capital of France?",
+    "good_answer_includes": "says it couldn't find that in the documents"
+  },
+  {
+    "question": "How do I fix my car's transmission?",
+    "good_answer_includes": "says it couldn't find that in the documents"
+  }
+]
