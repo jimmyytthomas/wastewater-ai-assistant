@@ -6,6 +6,7 @@ Uses Chroma's default local embedding model, so no API key is required.
 from pathlib import Path
 
 import chromadb
+from chromadb.config import Settings
 from chromadb.utils.embedding_functions import DefaultEmbeddingFunction
 
 from ingest import load_chunks
@@ -21,7 +22,10 @@ EMBEDDING = DefaultEmbeddingFunction()
 
 
 def _client():
-    return chromadb.PersistentClient(path=str(CHROMA_PATH))
+    return chromadb.PersistentClient(
+        path=str(CHROMA_PATH),
+        settings=Settings(anonymized_telemetry=False),
+    )
 
 
 def build_index():
@@ -55,11 +59,19 @@ def _metadata(chunk):
 
 def search(question, k=8):
     """Return the top k chunks, each with text, metadata, and distance."""
-    collection = _client().get_collection(
+    client = _client()
+    if COLLECTION_NAME not in [collection.name for collection in client.list_collections()]:
+        raise RuntimeError(
+            "The document index is missing. Build it with: python src/store.py"
+        )
+    collection = client.get_collection(
         name=COLLECTION_NAME,
         embedding_function=EMBEDDING,
     )
-    result = collection.query(query_texts=[question], n_results=k)
+    total = collection.count()
+    if total == 0:
+        return []
+    result = collection.query(query_texts=[question], n_results=min(k, total))
 
     hits = []
     documents = result["documents"][0]

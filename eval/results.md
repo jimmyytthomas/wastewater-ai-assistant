@@ -8,26 +8,18 @@
 
 **Answer:**
 
-A technology-based effluent limitation (TBEL) is a limit derived from EPA's effluent guidelines, which are developed per industrial category/subcategory based on the performance and availability of the best pollution control technologies and pollution prevention practices for that sector [7]. Each facility's permit limit reflects proper operation of the "model technology" EPA selected as the basis for that effluent guideline, from which the performance data used to set the limitations were obtained [3].
+I couldn't find that in the available documents
 
-Key points for permit writers:
-- TBELs are promulgated by industrial category in 40 CFR, Chapter I, Subchapter N — Parts 400–471 [4][7], with a summary available on EPA's Industrial Regulations Website [4].
-- Applicability sections of each effluent guideline define which facilities are covered (e.g., based on production or process wastewater flow thresholds) [6].
-- Where a calculated limit would fall below the minimum level (ML) that can be reliably measured, the ML itself is specified in the regulation, based on the analytical methods EPA used when developing the rule (e.g., Pulp, Paper, and Paperboard guidelines) [5].
-- Average monthly limits serve as an additional restriction (beyond daily maximums) under this technology-based framework [2].
-
-This differs from a water quality-based effluent limitation (WQBEL), which instead is set by selecting the most stringent limit calculated from applicable water quality criteria (aquatic life, human health, wildlife, or narrative criteria translation) for a specific discharge to a specific receiving water [8].
+The sources discuss related aspects of technology-based effluent limitations — such as model technologies and performance data used to generate limitations [3], the effluent guidelines at 40 CFR Parts 400–471 that establish them [4][7], applicability criteria like production or flow thresholds [6], monitoring/detection levels used when a limitation is set [5], and the objective of average monthly limitations [2] — but none of the provided sources contain a direct definition of "technology-based effluent limit" itself.
 
 **Sources:**
 
-- [1] NPDES Permit Writers' Manual (2025 update), page 107, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
 - [2] NPDES Permit Writers' Manual (2025 update), page 86, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
 - [3] NPDES Permit Writers' Manual (2025 update), page 81, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
 - [4] NPDES Permit Writers' Manual (2025 update), page 90, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
 - [5] NPDES Permit Writers' Manual (2025 update), page 88, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
 - [6] NPDES Permit Writers' Manual (2025 update), page 91, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
 - [7] NPDES Permit Writers' Manual (2025 update), page 84, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [8] NPDES Permit Writers' Manual (2025 update), page 251, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
 
 ## 2. What are the BOD5 and TSS limits for the Niland wastewater treatment plant?
 
@@ -39,24 +31,19 @@ This differs from a water quality-based effluent limitation (WQBEL), which inste
 
 Per Table 4 of the permit [8]:
 
-**BOD5 (5-day @ 20°C):**
-- 45 mg/L monthly average / 65 mg/L weekly average
-- 188 lbs/day monthly average / 271 lbs/day weekly average
+**Biochemical Oxygen Demand (BOD5) (5-day @ 20 Deg. C):**
+- Average Monthly: 45 mg/L / 188 lbs/day
+- Average Weekly: 65 mg/L / 271 lbs/day
 
-**TSS:**
-- 56 mg/L monthly average / 84 mg/L weekly average
-- 233 lbs/day monthly average / 350 lbs/day weekly average
+**Total Suspended Solids (TSS):**
+- Average Monthly: 56 mg/L / 233 lbs/day
+- Average Weekly: 84 mg/L / 350 lbs/day
 
-These technology-based limits are set under 40 C.F.R. §133.105 [7], and are more stringent than the baseline secondary treatment standards of 30 mg/L monthly / 45 mg/L weekly for BOD5 and TSS under 40 C.F.R. §133.102 [4]. Both parameters also carry an 85% minimum monthly average percent removal requirement [4].
+Additionally, the permit's technology-based limitations for BOD5, TSS, percent removal for BOD5 and TSS, and pH are specified under 40 C.F.R. part 133 [1]. Table F-7 identifies the basis for these limitations: BOD5 is based on 40 C.F.R. § 133.105(a), TSS is based on 40 C.F.R. § 133.105(d) and 133.101(f), and the removal efficiency for BOD5 and TSS is based on 40 C.F.R. § 133.105(a)-(b) [7].
 
 **Sources:**
 
 - [1] Niland WWTP NPDES Permit, Order R7-2025-0017, page 116, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [2] NPDES Permit Writers' Manual (2025 update), page 72, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [3] Niland WWTP NPDES Permit, Order R7-2025-0017, page 85, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [4] Niland WWTP NPDES Permit, Order R7-2025-0017, page 95, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [5] Niland WWTP NPDES Permit, Order R7-2025-0017, page 134, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [6] Niland WWTP NPDES Permit, Order R7-2025-0017, page 86, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
 - [7] Niland WWTP NPDES Permit, Order R7-2025-0017, page 97, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
 - [8] Niland WWTP NPDES Permit, Order R7-2025-0017, page 6, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
 
@@ -68,16 +55,15 @@ These technology-based limits are set under 40 C.F.R. §133.105 [7], and are mor
 
 **Answer:**
 
-Under Title 22, the turbidity limit for filtered wastewater depends on the filtration pathway:
+Under Title 22, for wastewater that has been coagulated and passed through natural undisturbed soils or a bed of filter media, the turbidity of the filtered wastewater must not exceed any of the following [1]:
 
-**Standard coagulation + filtration (§60301.320(a))** — filtered wastewater turbidity must not exceed:
-- 2 NTU average within any 24-hour period
-- 5 NTU more than 5% of the time within a 24-hour period
-- 10 NTU at any time [1]
+- (A) An average of 2 NTU within a 24-hour period [1]
+- (B) 5 NTU more than 5 percent of the time within a 24-hour period [1]
+- (C) 10 NTU at any time [1]
 
-**Alternative filtration without coagulation** (allowed for certain uses under §60304 and §60307) — filter *effluent* turbidity must not exceed 2 NTU, provided influent turbidity is continuously monitored, does not exceed 5 NTU for more than 15 minutes, and never exceeds 10 NTU, with automatic chemical-addition/diversion capability on alarm [2][3][4][6].
+Separately, where filtration is provided under Section 60301.320(a) without coagulation, the filter effluent turbidity must not exceed 2 NTU, the turbidity of the influent to the filters must be continuously measured, the influent turbidity must not exceed 5 NTU for more than 15 minutes and must never exceed 10 NTU, with capability to automatically activate chemical addition or divert the wastewater if the filter influent turbidity exceeds 5 NTU for more than 15 minutes [2][3][4][6].
 
-**Monitoring requirement**: Disinfected tertiary recycled water must be continuously monitored for turbidity post-filtration via a continuous turbidity meter/recorder, with the daily average compliance value calculated from readings taken at 4-hour intervals over a 24-hour period [5].
+Compliance with the daily average operating filter effluent turbidity is determined by averaging the levels of recorded turbidity taken at four-hour intervals over a 24-hour period, using continuous turbidity monitoring following filtration [5].
 
 **Sources:**
 
@@ -87,8 +73,6 @@ Under Title 22, the turbidity limit for filtered wastewater depends on the filtr
 - [4] California Regulations Related to Recycled Water (Title 22), page 17, California State Water Resources Control Board, 2026-05-01, final, https://water.waterboards.ca.gov/drinking_water/certlic/drinkingwater/documents/lawbook/stats-regs.pdf
 - [5] California Regulations Related to Recycled Water (Title 22), page 82, California State Water Resources Control Board, 2026-05-01, final, https://water.waterboards.ca.gov/drinking_water/certlic/drinkingwater/documents/lawbook/stats-regs.pdf
 - [6] California Regulations Related to Recycled Water (Title 22), page 19, California State Water Resources Control Board, 2026-05-01, final, https://water.waterboards.ca.gov/drinking_water/certlic/drinkingwater/documents/lawbook/stats-regs.pdf
-- [7] NPDES Permit Writers' Manual (2025 update), page 96, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [8] California Regulations Related to Recycled Water (Title 22), page 100, California State Water Resources Control Board, 2026-05-01, final, https://water.waterboards.ca.gov/drinking_water/certlic/drinkingwater/documents/lawbook/stats-regs.pdf
 
 ## 4. What did EPA find about PFOA and PFOS in sewage sludge?
 
@@ -98,23 +82,24 @@ Under Title 22, the turbidity limit for filtered wastewater depends on the filtr
 
 **Answer:**
 
-EPA's draft Sewage Sludge Risk Assessment (released January 14, 2025) found that in some scenarios, EPA's acceptable risk thresholds may be exceeded when sewage sludge containing PFOA and PFOS is land applied for beneficial reuse or surface disposed [2].
+On January 14, 2025, the EPA released its Draft Sewage Sludge Risk Assessment for PFOA and PFOS. The draft risk assessment indicates that in some scenarios, the EPA's acceptable risk thresholds may be exceeded when sewage sludge containing PFOA and PFOS is land applied for beneficial reuse or surface disposed [2].
 
-Key points:
+Additional findings and context from the fact sheet:
 
-- **Persistence in sludge**: Traditional wastewater treatment technology does not remove or destroy PFOA or PFOS — these chemicals typically accumulate in sewage sludge due to their strong chemical bonds, which prevent breakdown in the environment or in bodies [3].
-- **Pathways of concern**: PFOA and PFOS can move from soils to groundwater or nearby lakes/streams and be taken up into fish, plants, and livestock, raising risk questions for sludge that is land applied as a soil conditioner/fertilizer, surface disposed, or incinerated [3].
-- **Conservative caveats**: The draft risk calculations are not conservative estimates. They are based on a sludge concentration of 1 ppb PFOA or PFOS (on the low end of measured U.S. concentrations), use median (50th percentile) exposure assumptions rather than high-end ones, and do not account for non-sludge PFAS exposures, the combined risk of PFOA and PFOS together, or additional exposure from precursor transformation. As a result, actual risk estimates accounting for multiple pathways/sources/PFAS would likely be greater than what's presented in the draft [7].
-- **Potential regulatory follow-up**: If the final risk assessment confirms risks above acceptable thresholds, EPA expects to propose a regulation under Clean Water Act section 405 to manage PFOA/PFOS in sewage sludge, with economic costs and treatment feasibility considered during risk management deliberation [8].
+- Traditional wastewater treatment technology does not remove or destroy PFOA or PFOS, and these chemicals typically accumulate in the sewage sludge [3].
+- PFOA and PFOS have strong chemical bonds, which means they do not break down on their own in the environment or in our bodies. The chemicals can move from soils to groundwater or nearby lakes or streams, and be taken up into fish, plants, and livestock [3].
+- These factors combine to raise questions about the potential risks associated with the presence of PFOA or PFOS in sewage sludge that is land applied as a soil conditioner or fertilizer (on agricultural, forested, and other lands), surface disposed, or incinerated [3].
+- The draft risk calculations are not conservative estimates because: (1) they model risk associated with sewage sludge containing 1 ppb PFOA or PFOS, which is on the low end of measured U.S. sewage sludge concentrations; (2) they reflect median exposure conditions (e.g., 50th percentile drinking water intake rates) rather than high end exposure conditions; (3) they do not take into account non-sewage sludge exposures to PFOA and PFOS (e.g., consumer products, other dietary sources); (4) they do not account for the combined risk of PFOA and PFOS; and (5) they do not account for additional exposures from the transformation of PFOA and PFOS precursors. As such, risk estimates that account for multiple pathways, multiple sources of exposure, and multiple PFAS would be greater than presented in this draft assessment [7][5].
+
+If the final risk assessment indicates that there are risks above acceptable thresholds when using or disposing of sewage sludge, the EPA expects to propose a regulation under CWA section 405 to manage PFOA and/or PFOS in sewage sludge to protect public health and the environment [8].
+
+The sources do not state specific numeric risk values, exceedance magnitudes, or which specific scenarios (e.g., particular land application or disposal practices) exceed thresholds beyond what is quoted above.
 
 **Sources:**
 
-- [1] Draft Sewage Sludge Risk Assessment for PFOA and PFOS: Information for Wastewater Treatment Plants, page 2, U.S. EPA, 2025-01-14, draft, https://www.epa.gov/system/files/documents/2025-01/fact-sheet-wwtps-draft-sewage-sludge-risk-assessment-pfoa-pfos.pdf
 - [2] Draft Sewage Sludge Risk Assessment for PFOA and PFOS: Information for Wastewater Treatment Plants, page 1, U.S. EPA, 2025-01-14, draft, https://www.epa.gov/system/files/documents/2025-01/fact-sheet-wwtps-draft-sewage-sludge-risk-assessment-pfoa-pfos.pdf
 - [3] Draft Sewage Sludge Risk Assessment for PFOA and PFOS: Information for Wastewater Treatment Plants, page 2, U.S. EPA, 2025-01-14, draft, https://www.epa.gov/system/files/documents/2025-01/fact-sheet-wwtps-draft-sewage-sludge-risk-assessment-pfoa-pfos.pdf
-- [4] Draft Sewage Sludge Risk Assessment for PFOA and PFOS: Information for Wastewater Treatment Plants, page 1, U.S. EPA, 2025-01-14, draft, https://www.epa.gov/system/files/documents/2025-01/fact-sheet-wwtps-draft-sewage-sludge-risk-assessment-pfoa-pfos.pdf
 - [5] Draft Sewage Sludge Risk Assessment for PFOA and PFOS: Information for Wastewater Treatment Plants, page 3, U.S. EPA, 2025-01-14, draft, https://www.epa.gov/system/files/documents/2025-01/fact-sheet-wwtps-draft-sewage-sludge-risk-assessment-pfoa-pfos.pdf
-- [6] Draft Sewage Sludge Risk Assessment for PFOA and PFOS: Information for Wastewater Treatment Plants, page 2, U.S. EPA, 2025-01-14, draft, https://www.epa.gov/system/files/documents/2025-01/fact-sheet-wwtps-draft-sewage-sludge-risk-assessment-pfoa-pfos.pdf
 - [7] Draft Sewage Sludge Risk Assessment for PFOA and PFOS: Information for Wastewater Treatment Plants, page 3, U.S. EPA, 2025-01-14, draft, https://www.epa.gov/system/files/documents/2025-01/fact-sheet-wwtps-draft-sewage-sludge-risk-assessment-pfoa-pfos.pdf
 - [8] Draft Sewage Sludge Risk Assessment for PFOA and PFOS: Information for Wastewater Treatment Plants, page 5, U.S. EPA, 2025-01-14, draft, https://www.epa.gov/system/files/documents/2025-01/fact-sheet-wwtps-draft-sewage-sludge-risk-assessment-pfoa-pfos.pdf
 
@@ -126,18 +111,11 @@ Key points:
 
 **Answer:**
 
-I couldn't find that in the available documents. The provided sources are all about NPDES wastewater permits and regulations, and don't contain information about the capital of France.
+I couldn't find that in the available documents
 
 **Sources:**
 
-- [1] Niland WWTP NPDES Permit, Order R7-2025-0017, page 100, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [2] Niland WWTP NPDES Permit, Order R7-2025-0017, page 100, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [3] Niland WWTP NPDES Permit, Order R7-2025-0017, page 99, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [4] NPDES Permit Writers' Manual (2025 update), page 41, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [5] Niland WWTP NPDES Permit, Order R7-2025-0017, page 1, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [6] NPDES Permit Writers' Manual (2025 update), page 263, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [7] Niland WWTP NPDES Permit, Order R7-2025-0017, page 99, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [8] California Regulations Related to Recycled Water (Title 22), page 20, California State Water Resources Control Board, 2026-05-01, final, https://water.waterboards.ca.gov/drinking_water/certlic/drinkingwater/documents/lawbook/stats-regs.pdf
+(none)
 
 ## 6. How do I fix my car's transmission?
 
@@ -147,16 +125,9 @@ I couldn't find that in the available documents. The provided sources are all ab
 
 **Answer:**
 
-I couldn't find that in the available documents. The sources provided are about NPDES permits and wastewater treatment regulations, not automotive repair — I'm not able to help with a car transmission question using these materials.
+I couldn't find that in the available documents.
 
 **Sources:**
 
-- [1] NPDES Permit Writers' Manual (2025 update), page 60, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [2] NPDES Permit Writers' Manual (2025 update), page 62, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [3] NPDES Permit Writers' Manual (2025 update), page 229, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [4] NPDES Permit Writers' Manual (2025 update), page 78, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [5] Niland WWTP NPDES Permit, Order R7-2025-0017, page 40, Colorado River Basin Regional Water Quality Control Board, 2025-07-01, final, https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/orders/2025/r7-2025-0017-niland-wwtp-npdes-permit.pdf
-- [6] NPDES Permit Writers' Manual (2025 update), page 205, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [7] NPDES Permit Writers' Manual (2025 update), page 201, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
-- [8] NPDES Permit Writers' Manual (2025 update), page 228, U.S. EPA, 2025-06-01, final, https://www.epa.gov/system/files/documents/2025-09/pwm_2010_edits_2025_06.pdf
+(none)
 

@@ -64,7 +64,7 @@ def show_result(result):
 
     st.subheader("Sources")
     if not result["sources"]:
-        st.caption("No sources. A blocked question is not searched.")
+        st.caption("No sources were cited. A blocked question is not searched.")
         return
 
     for source in result["sources"]:
@@ -81,11 +81,18 @@ with ask_tab:
     # Store the last result so a later rerun (typing a name, switching tabs)
     # does not send the question to Claude again.
     if st.button("Ask"):
+        st.session_state.pop("result", None)
         if not question.strip():
             st.warning("Enter a question first.")
         else:
             with st.spinner("Checking the question and searching the documents..."):
-                st.session_state["result"] = answer(question, user=user or "demo_user")
+                try:
+                    st.session_state["result"] = answer(question, user=user or "demo_user")
+                except RuntimeError as exc:
+                    # These messages are written for the user and never contain the token.
+                    st.error(str(exc))
+                except Exception:
+                    st.error("Something went wrong answering this question. Please try again.")
 
     if "result" in st.session_state:
         show_result(st.session_state["result"])

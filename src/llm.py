@@ -12,6 +12,19 @@ from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMEOUT_SECONDS = 120
+MAX_ERROR_DETAIL_CHARS = 300
+
+# Answering needs no tools. With none, text in a PDF cannot make Claude run
+# commands or read files. --no-session-persistence keeps prompts out of
+# ~/.claude, and --strict-mcp-config skips the user's MCP servers.
+CLAUDE_COMMAND = [
+    "claude",
+    "-p",
+    "--no-session-persistence",
+    "--strict-mcp-config",
+    "--tools",
+    "",
+]
 
 
 def ask_claude(prompt: str) -> str:
@@ -23,8 +36,7 @@ def ask_claude(prompt: str) -> str:
     """
     load_dotenv(ROOT / ".env")
 
-    # Copy the environment, keep the subscription token, and drop an API key
-    # so Claude Code authenticates with the OAuth subscription.
+    # Drop an API key so Claude Code authenticates with the OAuth subscription.
     env = os.environ.copy()
     env.pop("ANTHROPIC_API_KEY", None)
     token = env.get("CLAUDE_CODE_OAUTH_TOKEN")
@@ -32,13 +44,12 @@ def ask_claude(prompt: str) -> str:
         raise RuntimeError(
             "Claude call failed: CLAUDE_CODE_OAUTH_TOKEN is not set. Add it to .env."
         )
-    env["CLAUDE_CODE_OAUTH_TOKEN"] = token
 
     # A throwaway directory keeps Claude Code from reading this project's files.
     with tempfile.TemporaryDirectory() as temp_dir:
         try:
             completed = subprocess.run(
-                ["claude", "-p"],
+                CLAUDE_COMMAND,
                 input=prompt,
                 text=True,
                 capture_output=True,
@@ -56,9 +67,21 @@ def ask_claude(prompt: str) -> str:
             ) from exc
 
     if completed.returncode != 0:
-        detail = (completed.stderr or completed.stdout or "").strip()
+        # This message is logged and shown in the app, so it must never carry the token.
+        detail = _scrub((completed.stderr or completed.stdout or "").strip(), token)
         raise RuntimeError(
             f"Claude call failed (exit code {completed.returncode}): {detail}"
         )
 
-    return completed.stdout.strip()
+    reply = completed.stdout.strip()
+    if not reply:
+        raise RuntimeError("Claude call failed: Claude returned an empty reply.")
+    return reply
+
+
+def _scrub(detail, token):
+    """Remove the token and keep only the start of the error text."""
+    detail = detail.replace(token, "[TOKEN]")
+    if len(detail) > MAX_ERROR_DETAIL_CHARS:
+        detail = detail[:MAX_ERROR_DETAIL_CHARS] + "..."
+    return detail

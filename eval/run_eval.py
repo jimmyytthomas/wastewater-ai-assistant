@@ -22,7 +22,11 @@ def main():
         expected = item["good_answer_includes"]
         print(f"\n=== {index}. {question}")
 
-        result = answer(question)
+        try:
+            result = answer(question, user="eval")
+        except Exception as exc:
+            # One failed question should not stop the run or lose the other results.
+            result = {"decision": "error", "answer": f"ERROR: {exc}", "sources": []}
         _print_answer(result)
 
         sections.extend(

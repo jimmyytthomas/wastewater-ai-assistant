@@ -6,6 +6,7 @@ and store no question text at all when the decision is "block".
 
 import json
 import sqlite3
+from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -84,9 +85,15 @@ def get_events():
     return events
 
 
+@contextmanager
 def _connect():
+    """Open the log, commit on success, and always close the connection."""
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    conn.execute(_CREATE_EVENTS)
-    return conn
+    try:
+        conn.row_factory = sqlite3.Row
+        conn.execute(_CREATE_EVENTS)
+        with conn:
+            yield conn
+    finally:
+        conn.close()
