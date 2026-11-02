@@ -158,6 +158,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+chroma_db/
 
 # Spyder project settings
 .spyderproject
